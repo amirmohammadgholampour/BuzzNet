@@ -1,0 +1,6 @@
+venv
+core/.env.local
+*__init__.py
+*__pycache__
+run-dev.sh
+*migrations
