@@ -4,3 +4,4 @@ core/.env.local
 *__pycache__
 run-dev.sh
 *migrations
+media
