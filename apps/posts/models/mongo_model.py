@@ -1,8 +1,8 @@
-from mongoengine import Document, StringField, ReferenceField, DateTimeField
+from mongoengine import Document, StringField, DateTimeField, IntField
 import datetime
 
 class PostMeta(Document):
-    post_id = StringField(required=True)
+    post_id = IntField(required=True)
     tags = StringField()
     device = StringField()
     location = StringField()
