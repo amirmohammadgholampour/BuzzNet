@@ -18,7 +18,6 @@ INSTALLED_APPS = [
     # Aplications
     'apps.users',
     'apps.posts',
-    'apps.comments',
     'apps.like',
     
     # Django package
