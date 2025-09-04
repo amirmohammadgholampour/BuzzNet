@@ -1,5 +1,5 @@
 import pytest 
-from apps.users.models import User, UserManager
+from apps.users.models import User 
 
 @pytest.fixture
 def user_a(db):
