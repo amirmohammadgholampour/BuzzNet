@@ -5,3 +5,4 @@ core/.env.local
 run-dev.sh
 *migrations
 media
+pytest.ini
